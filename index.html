@@ -6,15 +6,15 @@
 	
 	     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-		 <link rel="stylesheet" type="text/css" href="/css/main.css" >
+		 <link rel="stylesheet" type="text/css" href="css/main.css" >		
 		 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	
 		 <title>Open Business Framework | Home</title>
 	</head>
 	<body>
-<div class="container-fluid">
-  <nav class="navbar navbar-default">
+	<div class="container-fluid">
+	  <nav class="navbar navbar-inverse">
 		  <div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -34,12 +34,12 @@
 				<li class="dropdown">
 				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Components <span class="caret"></span></a>
 				  <ul class="dropdown-menu">
-				    <li><a href="#">Modeling engine</a></li>
-					<li><a href="#">Business process engine</a></li>
-					<li><a href="#">Portal generation engine</a></li>
-					<li><a href="#">Service generation engine</a></li>
+					<li><a href="#modelingengine">Modeling engine</a></li>
+					<li><a href="#businessprocessengine">Business process engine</a></li>
+					<li><a href="#portalengine">Portal generation engine</a></li>
+					<li><a href="#serviceengine">Service generation engine</a></li>
 					<li role="separator" class="divider"></li>
-					<li><a href="#">Code generation core</a></li>
+					<li><a href="#codegenerationcore">Code generation core</a></li>
 				  </ul>
 				</li>
 			  </ul>
@@ -48,23 +48,48 @@
 		</nav>
 		<div class="jumbotron">
 		  <h1>Open source RAD framework</h1>
-		  <p>Where the shizzle hits the fan (hard)</p>
-		 
+		  <p>Where the shizzle hits the fan (hard)</p>		 
+		</div>		
+		<div class="container">
+			<div class="col-md-12" role="main" >		
+				<h1 class="page-header">About</h1>
+				<p class="lead">The OpenBusiness Framework aims to help developers and businesses by providing a toolset for rapid application generation.</p>
+				<p class="lead">Each component has the following sub components which can be used separately:</p>
+				<ul class="lead">
+					<li>Visual designer</li>
+					<li>Configuration parser</li>
+					<li>Code generator</li>
+				</ul>			
+			
+				<h1 class="page-header">Components</h1>
+				<h2 name="modelingengine">Modeling engine</h2>
+				<p class="lead">The modeling engine enables users to easily create and edit domain models. Several returing business concepts are already made available.</p>
+				<h2>Business process engine</h2>
+				<p class="lead">The business process engine handles business processes and related tasks. Processes can be created by visually designing them.</p>
+				<h3>Process designer</h3>
+				
+				<h2>Portal generation engine</h2>
+				<p class="lead">The portal generation engine generates (web)portals.</p>
+				<h2>Service generation engine</h2>
+				<p class="lead">The service generation engine generates RESTFul- or web-services which can be used separately or through one of the other components.</p>
+				<h1 class="page-header">Core concepts</h1>
+				<h2 id="codegenerationcore">Code generation core</h2>
+				<p class="lead">The code generation core generates code based on a given configuration (which can be based on a visual design model).</p>			
+			</div>	
+			
 		</div>
-		<div class="row">
-		<div class="col-md-2">
-		<iframe src="https://www.slideshare.net/slideshow/embed_code/key/mR3wi8FV21eMYL" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/WilkovanderVeen/openb-concepts-modeling-engine" title="OpenB concepts - Modeling Engine" target="_blank">OpenB concepts - Modeling Engine</a> </strong></div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h1>Requesting your help</h1>
+			</div>
+			<div class="panel-body">
+				<p class="lead">For making the open business framework a success we need your help:</p>
+				<h2>Front-end developers</h2>
+				<p class="lead">Just look at this site, need to say more?</p>
+				<h2>Back-end developers</h2>
+				<h2>UX designers</h2>				
+				<h2>Content writers</h2>				
+			</div>
 		</div>
-		<div class="col-md-2">
-		<iframe src="https://www.slideshare.net/slideshow/embed_code/key/jfWzaNfh5dYNPh" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/WilkovanderVeen/openb-concepts-bpm-engine" title="OpenB Concepts - BPM Engine" target="_blank">OpenB Concepts - BPM Engine</a></div>
-		</div>
-		<div class="col-md-2">
-		<iframe src="https://www.slideshare.net/slideshow/embed_code/key/aQfsYbpKjBlVDi" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/WilkovanderVeen/openb-core-principles-code-generation" title="OpenB Core Principles - Code Generation" target="_blank">OpenB Core Principles - Code Generation</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/WilkovanderVeen">Wilko van der Veen</a></strong> </div>
-		</div>
-		</div>
-		</div>
-		
-</div>	
-		
 	</body>
 </html>
